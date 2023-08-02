@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D86DE1D8-53A7-589E-EBC5-F656A90A15B2}</ProjectGuid>
+    <ProjectGuid>{0877B75D-8525-E9A1-D6E2-1FDB42C72DE9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
@@ -72,8 +72,8 @@
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Messaging\Serializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\ProjectGeneration\ProjectProperties.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\ProjectGeneration\FileIOProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Testing\TestRunnerCallbacks.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Testing\TestAdaptor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Testing\TestRunnerCallbacks.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\UnityInstallation.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Messaging\Deserializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.ide.visualstudio@2.0.16\Editor\Testing\TestResultAdaptor.cs" />
@@ -739,19 +739,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5A58EE8D-4392-FA76-0B86-5032D83D358F}</Project>
+      <Project>{618667E5-B38B-41C6-B034-1D28421193F9}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{DF7B4A64-C513-9CAF-6C37-C6AE85879582}</Project>
+      <Project>{553DA07D-F839-E0D4-1E09-B3457B3D7711}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{66E94BCA-F359-0EB2-EC11-3C302C666537}</Project>
+      <Project>{D7EDCF95-5A99-4946-2694-406A2B1D86A3}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{19C21C63-5D5D-6765-531F-46C365534806}</Project>
+      <Project>{711C6DDB-6A40-E77F-0FAE-28E89A4E3807}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

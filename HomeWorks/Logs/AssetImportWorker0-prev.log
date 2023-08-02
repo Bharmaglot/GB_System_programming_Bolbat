@@ -1,0 +1,641 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ru' Physical Memory: 16328 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GB/C#_2/rep/GB_System_programming_Bolbat/GB_System_programming_Bolbat/HomeWorks
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51336
+Successfully changed project path to: D:/GB/C#_2/rep/GB_System_programming_Bolbat/GB_System_programming_Bolbat/HomeWorks
+D:/GB/C#_2/rep/GB_System_programming_Bolbat/GB_System_programming_Bolbat/HomeWorks
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 133.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GB/C#_2/rep/GB_System_programming_Bolbat/GB_System_programming_Bolbat/HomeWorks/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019720 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 123.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1174ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GB\C#_2\rep\GB_System_programming_Bolbat\GB_System_programming_Bolbat\HomeWorks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GB\C#_2\rep\GB_System_programming_Bolbat\GB_System_programming_Bolbat\HomeWorks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2027ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1444ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (167.3 KB). Loaded Objects now: 4000.
+Memory consumption went from 125.5 MB to 125.4 MB.
+Total: 5.147800 ms (FindLiveObjects: 0.466600 ms CreateObjectMapping: 0.402800 ms MarkObjects: 4.141000 ms  DeleteObjects: 0.135800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3275.175347 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.010359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(6df4d251abc89bc4da876d47f980de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(6df4d251abc89bc4da876d47f980de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ed6c36f654d89dd732f39eebe08e9a') in 0.002452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Lesson_1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson_1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1ec81d1fda775333df64cbe9dfffae') in 0.002483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 360.632034 seconds.
+  path: Assets/ProjectResources/Lesson_5/Texture/Earth/NormalMap.png
+  artifactKey: Guid(a77ea3cb3c8e96c4199c6db0d8b9c638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Texture/Earth/NormalMap.png using Guid(a77ea3cb3c8e96c4199c6db0d8b9c638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c990575064da7dee9b63e749e152ad') in 0.234685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.332177 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Gate/BarsMat.mat
+  artifactKey: Guid(46df645cc598a3441acb4b235e69fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Gate/BarsMat.mat using Guid(46df645cc598a3441acb4b235e69fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 184
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader error in 'Universal Render Pipeline/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl'. at line 184
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DOTS_INSTANCING_ON INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+ -> (artifact id: '6991e63d86ee9bf9e2f04fcfed0098fb') in 0.440436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Gate/RingMat.mat
+  artifactKey: Guid(e2466b821f8cc7e468d9fe84edaffeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Gate/RingMat.mat using Guid(e2466b821f8cc7e468d9fe84edaffeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+ -> (artifact id: 'a1efbd742531c30c925976f69209d012') in 0.020821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Gate/RingShaderMat.mat
+  artifactKey: Guid(ff8f650272a052a42a7eea843245e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Gate/RingShaderMat.mat using Guid(ff8f650272a052a42a7eea843245e69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+ -> (artifact id: 'cf7e18d357893b6d644b87ca68ff6229') in 0.017569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116637 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/StarShip/MotorShaderMat.mat
+  artifactKey: Guid(8af024d35b1977a4181e73e2c3c6e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/StarShip/MotorShaderMat.mat using Guid(8af024d35b1977a4181e73e2c3c6e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258065cefd6d3b51a49ec41405d69771') in 0.346100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/StarShip/StarShipBaseMat.mat
+  artifactKey: Guid(64c0f6c7d774a43408675d7705277f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/StarShip/StarShipBaseMat.mat using Guid(64c0f6c7d774a43408675d7705277f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b84ed9cf40aeee4b76ba53c672f9fae') in 0.221203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/StarShip/StarShipSecondMat.mat
+  artifactKey: Guid(ade72be54a677a74b96206068728042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/StarShip/StarShipSecondMat.mat using Guid(ade72be54a677a74b96206068728042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c26678131d72c5a09ca86f6ab6ff9fc') in 0.326263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.341637 seconds.
+  path: Assets/ProjectResources/Lesson_5/Models/Cube.prefab
+  artifactKey: Guid(5c8ebef5f841ab348aa47b22f7e885f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Models/Cube.prefab using Guid(5c8ebef5f841ab348aa47b22f7e885f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34c5d32428ac11afb1403baeebe79c8') in 0.285476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ProjectResources/Lesson_5/Models/StarShip.fbx
+  artifactKey: Guid(dbe5f7579613d58418672af4940a76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Models/StarShip.fbx using Guid(dbe5f7579613d58418672af4940a76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369fb3a66de18aa3238c2b23102b1bc8') in 0.055024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ProjectResources/Lesson_5/Models/Main Camera.prefab
+  artifactKey: Guid(01c395d7aadb361408373cc6d505c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Models/Main Camera.prefab using Guid(01c395d7aadb361408373cc6d505c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fa121ec49e9f85bcd9592d4e3c6d14') in 0.005270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ProjectResources/Lesson_5/Models/Gate.fbx
+  artifactKey: Guid(49e6159b09a585348b9465781cbf041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Models/Gate.fbx using Guid(49e6159b09a585348b9465781cbf041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+ -> (artifact id: 'b0dca3112f257bdf582229c8e45a4061') in 0.039613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.261067 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/CubeMaterial.mat
+  artifactKey: Guid(aaf629c62c8ac9343bb3b847d7fe4413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/CubeMaterial.mat using Guid(aaf629c62c8ac9343bb3b847d7fe4413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e541d41856de4d36c953446e14407efb') in 0.016099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Solar.mat
+  artifactKey: Guid(ce849a7bf5466354bb0eee7852f6175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Solar.mat using Guid(ce849a7bf5466354bb0eee7852f6175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2bb9b33d0b90f8a751e721abf01877') in 0.305480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Uranus.mat
+  artifactKey: Guid(7243bbd7b47450d4aa4a3fc184faf249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Uranus.mat using Guid(7243bbd7b47450d4aa4a3fc184faf249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3953362a01613c84ff0b4f89793c8ddb') in 0.013336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Skybox_Space 4 Medium.mat
+  artifactKey: Guid(ab815e1cd29c5f244bcdd121845400ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Skybox_Space 4 Medium.mat using Guid(ab815e1cd29c5f244bcdd121845400ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1356993827be24f7c12f1b1879ce76b4') in 0.522645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Mercury.mat
+  artifactKey: Guid(a85a1d1bef60c8f4cbd9d3bb683068d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Mercury.mat using Guid(a85a1d1bef60c8f4cbd9d3bb683068d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581d2d3b3a5d19cff6639d9e5adf5bcd') in 0.140153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Venus.mat
+  artifactKey: Guid(1a846144018c6cc47857b912496bf01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Venus.mat using Guid(1a846144018c6cc47857b912496bf01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3981948563742f4df400201eb758bba') in 0.015144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Jupiter.mat
+  artifactKey: Guid(97e33d1046f5c2e4a80b9475a405983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Jupiter.mat using Guid(97e33d1046f5c2e4a80b9475a405983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed12370a4b2ca9f1eadb07b98689bc0') in 0.288641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Neptune.mat
+  artifactKey: Guid(62b2dd000dd386443bb6979461fdfff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Neptune.mat using Guid(62b2dd000dd386443bb6979461fdfff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d58cb7ada3d763e9671dbc0ea9c76e') in 0.014324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ProjectResources/Lesson_5/Materials/Mars.mat
+  artifactKey: Guid(ba0215acb98182d4a9e75c34810f5a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Materials/Mars.mat using Guid(ba0215acb98182d4a9e75c34810f5a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7c09769fb015dab4a84dd6c72f3bca') in 0.022792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.879290 seconds.
+  path: Assets/ProjectResources/Lesson_5/Prefabs/Player.prefab
+  artifactKey: Guid(226ceed5f7ec4354eb3edfe21c1cb2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Prefabs/Player.prefab using Guid(226ceed5f7ec4354eb3edfe21c1cb2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff8a6696eca7e6546241a577d861378') in 0.012139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ProjectResources/Lesson_5/Prefabs/SpaceShip.prefab
+  artifactKey: Guid(b71abdc14b6404c449d4b26aacfa0abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Prefabs/SpaceShip.prefab using Guid(b71abdc14b6404c449d4b26aacfa0abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e96db5dd11067d724b41535ab5d45d') in 0.022889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/ProjectResources/Lesson_5/Prefabs/Sphere.prefab
+  artifactKey: Guid(8ba31f4b24eda93498a0bb348ac82bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Prefabs/Sphere.prefab using Guid(8ba31f4b24eda93498a0bb348ac82bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1255eeb62be11b6953c5efe81805e39e') in 0.015442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.368675 seconds.
+  path: Assets/ProjectResources/Lesson_5/Texture/Earth/CloudMap.png
+  artifactKey: Guid(29adf664de4376b49a53934d98199e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Texture/Earth/CloudMap.png using Guid(29adf664de4376b49a53934d98199e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59e155dc0b6b574a70f7cd19b48753f') in 0.015222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ProjectResources/Lesson_5/Texture/Earth/New PlanetAsset.asset
+  artifactKey: Guid(f32e942c9e9648e4e891ef0d48ce206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Texture/Earth/New PlanetAsset.asset using Guid(f32e942c9e9648e4e891ef0d48ce206f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ca8b77df9c3933857e5e2029673ce4') in 0.005288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ProjectResources/Lesson_5/Texture/Earth/GroundMap.png
+  artifactKey: Guid(539512e099d250f43a3b742e6b69e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Texture/Earth/GroundMap.png using Guid(539512e099d250f43a3b742e6b69e834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04c0b719b9b3e359d3420244761aecb') in 0.017211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ProjectResources/Lesson_5/Texture/Earth/IlluminationMap.png
+  artifactKey: Guid(93dd082358ff27249bc2d781f4455d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Texture/Earth/IlluminationMap.png using Guid(93dd082358ff27249bc2d781f4455d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dc38b5b2d3b8edb2e9e5fa3509a664') in 0.012634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ProjectResources/Lesson_5/Texture/Earth/CloudNormalMap.png
+  artifactKey: Guid(5de42fb945fb9eb42a0029486ed0798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_5/Texture/Earth/CloudNormalMap.png using Guid(5de42fb945fb9eb42a0029486ed0798b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283f63f14900408cc86b3e8a43d3f90a') in 0.012714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.630141 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(1cfb23e6b100c014fbe9b0196fd47e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(1cfb23e6b100c014fbe9b0196fd47e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff871563a76ca2ae8979f233d702dcc1') in 0.002568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.891253 seconds.
+  path: Assets/Scripts/Lesson_8
+  artifactKey: Guid(3940703e8d3886243add05a8ed9751ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lesson_8 using Guid(3940703e8d3886243add05a8ed9751ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd895aabd4620b56149f60aa9929d815d') in 0.002543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.247024 seconds.
+  path: Assets/Scripts/Lesson_1/Task_1
+  artifactKey: Guid(0762e9e6b9a345e48bb57b07d4172ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lesson_1/Task_1 using Guid(0762e9e6b9a345e48bb57b07d4172ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ebe930f6b1e98e5114fc350d0c669f') in 0.002462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 206.137042 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitDepthNormalsPass.hlsl
+  artifactKey: Guid(9604e389528d04ae39fe05a7b4212172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitDepthNormalsPass.hlsl using Guid(9604e389528d04ae39fe05a7b4212172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030887 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl
+  artifactKey: Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl using Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001331 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitGBufferPass.hlsl
+  artifactKey: Guid(5f8cea4f4fce7414ab78bcbf51dca71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitGBufferPass.hlsl using Guid(5f8cea4f4fce7414ab78bcbf51dca71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001293 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitgbufferpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitgbufferpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl
+  artifactKey: Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl using Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001467 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl
+  artifactKey: Guid(9a48a2987a0e11645adf07fe4a8d5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl using Guid(9a48a2987a0e11645adf07fe4a8d5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001219 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/shadowcasterpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/shadowcasterpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl
+  artifactKey: Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl using Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001284 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitInput.hlsl
+  artifactKey: Guid(463a8185744c2459f8e621f4e4eb74d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitInput.hlsl using Guid(463a8185744c2459f8e621f4e4eb74d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001237 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl
+  artifactKey: Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl using Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001216 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl
+  artifactKey: Guid(c46f85bf266d7496d9b3659acfbdc711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitInput.hlsl using Guid(c46f85bf266d7496d9b3659acfbdc711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001457 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl
+  artifactKey: Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl using Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001413 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitForwardPass.hlsl
+  artifactKey: Guid(70003ec87ea6481a920369a377c1b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitForwardPass.hlsl using Guid(70003ec87ea6481a920369a377c1b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001370 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/bakedlitforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef
+  artifactKey: Guid(b4517ec124862cb4bb3b8b27d72843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Unity.RenderPipelines.Universal.Shaders.asmdef using Guid(b4517ec124862cb4bb3b8b27d72843a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002273 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unity.renderpipelines.universal.shaders.asmdef in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unity.renderpipelines.universal.shaders.asmdef in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl
+  artifactKey: Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl using Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001152 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitMetaPass.hlsl
+  artifactKey: Guid(ffc632d1e38ef4682807a89afb2b966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitMetaPass.hlsl using Guid(ffc632d1e38ef4682807a89afb2b966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001587 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl
+  artifactKey: Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl using Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001411 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitinput.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitForwardPass.hlsl
+  artifactKey: Guid(116bd973269b9f741b7177c8523b9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitForwardPass.hlsl using Guid(116bd973269b9f741b7177c8523b9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001550 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl
+  artifactKey: Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl using Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001549 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/unlitmetapass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl
+  artifactKey: Guid(0acd4fdbcf0cf654a9cdf3e9ccc2edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/DepthOnlyPass.hlsl using Guid(0acd4fdbcf0cf654a9cdf3e9ccc2edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001480 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/depthonlypass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/depthonlypass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl
+  artifactKey: Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl using Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001533 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litgbufferpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/litgbufferpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitDepthNormalsPass.hlsl
+  artifactKey: Guid(a63ccbef6bed14464a35b8a62ee9b775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitDepthNormalsPass.hlsl using Guid(a63ccbef6bed14464a35b8a62ee9b775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001233 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitdepthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitForwardPass.hlsl
+  artifactKey: Guid(ee447e65526c7db45a978c16b28827a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitForwardPass.hlsl using Guid(ee447e65526c7db45a978c16b28827a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001238 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/simplelitforwardpass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/DepthNormalsPass.hlsl
+  artifactKey: Guid(b76d45ea333b2a049bc45c5328ef3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/DepthNormalsPass.hlsl using Guid(b76d45ea333b2a049bc45c5328ef3e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001205 seconds  code(4) message(Build asset version error: packages/com.unity.render-pipelines.universal/shaders/depthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: packages/com.unity.render-pipelines.universal/shaders/depthnormalspass.hlsl in SourceAssetDB has modification time of '2022-10-27T21:23:10Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 3.382343 seconds.
+  path: Assets/ProjectResources/Lesson_4/FloorMaterial.mat
+  artifactKey: Guid(b3c54a77064520c438102fc2bad0d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/FloorMaterial.mat using Guid(b3c54a77064520c438102fc2bad0d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2818201d8f43febb753e374134b8080') in 0.014508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ProjectResources/Lesson_4/PlayerCharacter.prefab
+  artifactKey: Guid(764630021a6d9534e993a2712729b636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/PlayerCharacter.prefab using Guid(764630021a6d9534e993a2712729b636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50540b6a36235c6f020e35db36b9c55e') in 0.020416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProjectResources/Lesson_4/PlayerMaterial.mat
+  artifactKey: Guid(e3948b0eb779ca64c878150818856e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/PlayerMaterial.mat using Guid(e3948b0eb779ca64c878150818856e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4106cdbac2fee19837771c8a876f9728') in 0.016071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ProjectResources/Lesson_4/Player.prefab
+  artifactKey: Guid(566b4a0475b086548b56b2e59cf3ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/Player.prefab using Guid(566b4a0475b086548b56b2e59cf3ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26870eae2f9ab645dc55d317cabfc881') in 0.005953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/ProjectResources/Lesson_4/Level.prefab
+  artifactKey: Guid(c93bdfc27f48b2c41be2d38926f869f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/Level.prefab using Guid(c93bdfc27f48b2c41be2d38926f869f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32824e50a5509c81cb73b154690d877') in 0.019773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ProjectResources/Lesson_4/Wall2Materials.mat
+  artifactKey: Guid(d2e0c8b8d4e39434dafbb18cf5688d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/Wall2Materials.mat using Guid(d2e0c8b8d4e39434dafbb18cf5688d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c0c17046110ce261fc00b86b23c8c') in 0.018197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ProjectResources/Lesson_4/WallMaterial.mat
+  artifactKey: Guid(3445f3be65d418144bef5c8b9c2576c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/WallMaterial.mat using Guid(3445f3be65d418144bef5c8b9c2576c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fd4b6c27486f1b55e3fffe6893de78') in 0.023377 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021565 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GB\C#_2\rep\GB_System_programming_Bolbat\GB_System_programming_Bolbat\HomeWorks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GB\C#_2\rep\GB_System_programming_Bolbat\GB_System_programming_Bolbat\HomeWorks\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 156.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.513 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2514ms)
+		BeginReloadAssembly (377ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1868ms)
+			LoadAssemblies (326ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (611ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (914ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (156ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
+				AfterProcessingInitializeOnLoad (47ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 116 unused Assets / (6.2 MB). Loaded Objects now: 5689.
+Memory consumption went from 208.3 MB to 202.1 MB.
+Total: 8.834800 ms (FindLiveObjects: 0.517200 ms CreateObjectMapping: 0.551400 ms MarkObjects: 4.402100 ms  DeleteObjects: 3.362800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119.430742 seconds.
+  path: Assets/Scripts/Lesson_5
+  artifactKey: Guid(da2761b8f09ed2941a0e72cfbc45ad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lesson_5 using Guid(da2761b8f09ed2941a0e72cfbc45ad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1209d4068f5960c10f87c109a3598c56') in 0.013947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.108847 seconds.
+  path: Assets/ProjectResources/Lesson_4/PlayerCharacter.prefab
+  artifactKey: Guid(764630021a6d9534e993a2712729b636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectResources/Lesson_4/PlayerCharacter.prefab using Guid(764630021a6d9534e993a2712729b636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0396f50474c8c49834b3d3c35e69be99') in 0.101588 seconds 
