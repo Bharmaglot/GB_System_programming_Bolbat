@@ -56,8 +56,58 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\Lesson_1\Task_1\Unit.cs" />
     <Compile Include="Assets\Scripts\Lesson_1\Task_1\TasksAndToken.cs" />
+=======
+    <Compile Include="Assets\Scripts\Lesson_8\CustomRP\SpaceRunPipelineRender.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Data\SpaceShipSettings.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Network\NetworkCameraVisibleChecker.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Network\NetworkMovableObject.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Network\SpawnPoint.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Character\CameraOrbit.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\MyNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Main\SettingsContainer.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Player\NetworkPlayer.cs" />
+    <Compile Include="Assets\Scripts\Lesson_8\CameraRenderer.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\TestScript.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Main\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Mechanics\BulletManager.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Network\UpdatePhase.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Character\ShipController.cs" />
+    <Compile Include="Assets\Scripts\Lesson_8\CustomRP\SpaceRunPipelineRenderAsset.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\UI\PlayerLabel.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Utilities\CameraExtension.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Mechanics\PlanetOrbit.cs" />
+    <Compile Include="Assets\Scripts\Lesson_8\SwitchRenderPipelineAsset.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Main\SolarSystemNetworkManager.cs" />
+    <Compile Include="Assets\Scripts\Lesson_5\Character\PlayerCamera.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\ProjectResources\Lesson_5\HeyBlairGames\PlanetTextureGenerator\Runtime\PlanetParallaxSpecular.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\ProjectResources\Lesson_5\HeyBlairGames\PlanetTextureGenerator\Runtime\PlanetSpecular.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
